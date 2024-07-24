@@ -18,6 +18,16 @@ prefect = "^2.19.8"
 asyncio = "^3.4.3"
 pre-commit = "^3.7.1"
 
+# https://docs.pytest.org/en/stable/how-to/capture-warnings.html to ignore warnings
+# pyproject.toml
+[tool.pytest.ini_options]
+filterwarnings = [
+    "error",
+    "ignore::UserWarning",
+    "ignore::DeprecationWarning",
+    # note the use of single quote below to denote "raw" strings in TOML
+    'ignore:function ham\(\) is deprecated:DeprecationWarning',
+]
 
 [build-system]
 requires = ["poetry-core"]
