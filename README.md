@@ -7,8 +7,8 @@
 - How to format code using [`black`](https://github.com/psf/black) and [`isort`](https://github.com/PyCQA/isort);
 - How to style enforce with [`flake8`](https://github.com/PyCQA/flake8);
 - How to static type with [`mypy`](https://github.com/python/mypy);
-- How to test with [`pytest`](https://docs.pytest.org/en/latest/) and `pytest-cov`;
-- How to git hook with pre-commit.
+- How to test with [`pytest`](https://docs.pytest.org/en/latest/) and [`pytest-cov`](https://pypi.org/project/pytest-cov/);
+- How to git hook with [`pre-commit`](https://pre-commit.com/).
 
 # Sources:
 
